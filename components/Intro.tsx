@@ -6,6 +6,7 @@ import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
+import avatar from "@/public/avatar.png";
 const Intro = () => {
   const { ref } = useSectionInView("Home", 0.5);
 
@@ -24,7 +25,7 @@ const Intro = () => {
         >
           <Image
             className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
-            src="/avatar.jpg"
+            src={avatar}
             alt="Moataz avatar"
             width={192}
             height={192}
