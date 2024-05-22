@@ -7,6 +7,7 @@ import Todo from "@/public/Todo.png";
 import Dashboard from "@/public/Dashboard.png";
 import AnimationPower from "@/public/AnimationPower.png";
 import linkedInCloneV1 from "@/public/linkedin-clone v1.png";
+import eCommerceStore from "@/public/eCommerce-Store.png";
 
 export const links = [
   {
@@ -63,6 +64,22 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "eCommerce-Store",
+    description:
+      "Full stack store app build with Next, prisma, supabase db and full functional dashboard.",
+    tags: [
+      "Next",
+      "Tailwind",
+      "HeadlessUi",
+      "Typescript",
+      "Zustand",
+      "Next Backend",
+      "Prisma",
+    ],
+    imageUrl: eCommerceStore,
+    link: "https://e-commerce-store-three-pi.vercel.app",
+  },
   {
     title: "LinkedIn-Clone V1",
     description:
