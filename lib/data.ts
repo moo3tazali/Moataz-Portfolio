@@ -5,9 +5,10 @@ import { LuGraduationCap } from 'react-icons/lu';
 import HooBank from '@/public/HooBank.png';
 import Todo from '@/public/Todo.png';
 import Dashboard from '@/public/Dashboard.png';
-import AnimationPower from '@/public/AnimationPower.png';
 import linkedInCloneV1 from '@/public/linkedin-clone v1.png';
 import eCommerceStore from '@/public/eCommerce-Store.png';
+import nextAuth from '@/public/Next-Auth.png';
+import MoviesApp from '@/public/movies-app.png';
 
 export const links = [
   {
@@ -41,7 +42,7 @@ export const experiencesData = [
     title: 'Front-End Developer',
     location: 'Alex-EG',
     description:
-      "I'm now a junior frontend developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a junior frontend developer looking for a suitable position. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and more. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: '2023 - present',
   },
@@ -65,9 +66,30 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: 'Movies App',
+    description:
+      'This project is a simple Next React-based movies application built as part of the Vodo company internship task. It displays a list of movies and movie details with the ability to search for a specific movie.',
+    tags: [
+      'Next',
+      'Typescript',
+      'Tailwind',
+      'Redux toolkit',
+      'Context API',
+      'axios',
+      'Pagination',
+      'Lite responsive',
+      'SCR API',
+      'Search functionality',
+      'Movie overview',
+    ],
+    imageUrl: MoviesApp,
+    link: 'https://movies-app-vodo-intern.vercel.app',
+  },
+
+  {
     title: 'eCommerce-Store',
     description:
-      'Full stack store app build with Next, prisma, supabase db and full functional dashboard.',
+      'Full stack store app build with Next, prisma, supabase db and full functional dashboard. You can find the backend dashboard project on my github.',
     tags: [
       'Next',
       'Tailwind',
@@ -79,6 +101,26 @@ export const projectsData = [
     ],
     imageUrl: eCommerceStore,
     link: 'https://e-commerce-store-three-pi.vercel.app',
+  },
+  {
+    title: 'Next Auth v5',
+    description:
+      'This project provides an advanced implementation for Next Auth V5, covering comprehensive features and best practices for integrating authentication in Next.js.',
+    tags: [
+      'Next',
+      'Typescript',
+      'Tailwind',
+      'Shadcn',
+      'Prisma',
+      'Credentials Provider',
+      'User roles',
+      'OAuth Provider',
+      'Email verification',
+      'Password reset',
+      'Protected routes',
+    ],
+    imageUrl: nextAuth,
+    link: 'https://next-auth-red-six.vercel.app',
   },
   {
     title: 'LinkedIn-Clone V1',
@@ -97,6 +139,21 @@ export const projectsData = [
     link: 'https://moo3tazali.github.io/linkedin-clone/',
   },
 
+  // {
+  //   title: 'Amaar Landing Page',
+  //   description:
+  //     'Amaar Landing Page is a prototype responsive and modern landing page in English and Arabic designed to capture user attention and drive conversions. It is built with modern web technologies and follows best practices for web development.',
+  //   tags: [
+  //     'NextJs',
+  //     'Tailwind',
+  //     'NextI18',
+  //     'FramerMotion',
+  //     'React-hot-toast',
+  //     'Resend',
+  //   ],
+  //   imageUrl: Todo,
+  //   link: 'https://moo3tazali.github.io/React-Todo-App/',
+  // },
   {
     title: 'Todo App',
     description:
@@ -113,14 +170,7 @@ export const projectsData = [
     imageUrl: HooBank,
     link: 'https://moo3tazali.github.io/HooBank/',
   },
-  {
-    title: 'Animation Power',
-    description:
-      'The “Animation-Power” website is a project that showcases the use of HTML and CSS to create animated web elements.',
-    tags: ['HTML', 'CSS'],
-    imageUrl: AnimationPower,
-    link: 'https://moo3tazali.github.io/Animation-Power/',
-  },
+
   {
     title: 'Dashboard',
     description:
@@ -142,6 +192,7 @@ export const skillsData = [
   'Git',
   'Github',
   'Tailwind',
+  'Shadcn',
   'bootstrap',
   'MUI',
   'Prisma',
@@ -154,8 +205,7 @@ export const skillsData = [
   'Strapi',
   'Framer Motion',
   'Postman',
-  'Shadcn',
-  'Next Auth',
+  'Next Auth v5',
   'Clerk',
   'Kinde',
   'i18next',
