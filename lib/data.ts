@@ -2,13 +2,14 @@ import React from 'react';
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
-import HooBank from '@/public/HooBank.png';
-import Todo from '@/public/Todo.png';
-import Dashboard from '@/public/Dashboard.png';
-import linkedInCloneV1 from '@/public/linkedin-clone v1.png';
-import eCommerceStore from '@/public/eCommerce-Store.png';
-import nextAuth from '@/public/Next-Auth.png';
-import MoviesApp from '@/public/movies-app.png';
+import HooBank from '@/public/HooBank.webp';
+import Todo from '@/public/Todo.webp';
+import Dashboard from '@/public/Dashboard.webp';
+import linkedInCloneV1 from '@/public/linkedin-clone v1.webp';
+import eCommerceStore from '@/public/eCommerce-Store.webp';
+import nextAuth from '@/public/Next-Auth.webp';
+import MoviesApp from '@/public/movies-app.webp';
+import Amaar from '@/public/Amaar.webp';
 
 export const links = [
   {
@@ -138,22 +139,21 @@ export const projectsData = [
     imageUrl: linkedInCloneV1,
     link: 'https://moo3tazali.github.io/linkedin-clone/',
   },
-
-  // {
-  //   title: 'Amaar Landing Page',
-  //   description:
-  //     'Amaar Landing Page is a prototype responsive and modern landing page in English and Arabic designed to capture user attention and drive conversions. It is built with modern web technologies and follows best practices for web development.',
-  //   tags: [
-  //     'NextJs',
-  //     'Tailwind',
-  //     'NextI18',
-  //     'FramerMotion',
-  //     'React-hot-toast',
-  //     'Resend',
-  //   ],
-  //   imageUrl: Todo,
-  //   link: 'https://moo3tazali.github.io/React-Todo-App/',
-  // },
+  {
+    title: 'Amaar Landing Page',
+    description:
+      'Amaar Landing Page is a prototype responsive and modern landing page in English and Arabic designed to capture user attention and drive conversions. It is built with modern web technologies and follows best practices for web development.',
+    tags: [
+      'NextJs',
+      'Tailwind',
+      'NextI18',
+      'FramerMotion',
+      'React-hot-toast',
+      'Resend',
+    ],
+    imageUrl: Amaar,
+    link: 'https://amaar-kappa.vercel.app/en',
+  },
   {
     title: 'Todo App',
     description:
