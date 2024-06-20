@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 
-import { projectsData } from '@/lib/data';
+import { reactProjectsData, angularProjectsData } from '@/lib/data';
 import Project from './Project';
 
 export const ProjectsTabs = () => {
@@ -32,17 +32,18 @@ export const ProjectsTabs = () => {
 
       {tab === 'react' && (
         <>
-          {projectsData.map((project) => (
+          {reactProjectsData.map((project) => (
             <Project key={project.title} {...project} />
           ))}
         </>
       )}
 
       {tab === 'angular' && (
-        <div className='bg-gray-100 max-w-[45rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:text-white dark:bg-white/10 dark:hover:bg-white/20 flex items-center justify-center text-center text-xl'>
-          Currently working on
-          <br /> my first project. 👨‍💻
-        </div>
+        <>
+          {angularProjectsData.map((project) => (
+            <Project key={project.title} {...project} />
+          ))}
+        </>
       )}
     </>
   );

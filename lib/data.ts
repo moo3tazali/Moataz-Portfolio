@@ -10,6 +10,7 @@ import eCommerceStore from '@/public/eCommerce-Store.webp';
 import nextAuth from '@/public/Next-Auth.webp';
 import MoviesApp from '@/public/movies-app.webp';
 import Amaar from '@/public/Amaar.webp';
+import EasyTasks from '@/public/easy-tasks.webp';
 
 export const links = [
   {
@@ -65,7 +66,26 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
+export const angularProjectsData = [
+  {
+    title: 'Easy Tasks',
+    description:
+      'This project is a basic to-do application built with Angular V18.',
+    tags: [
+      'Angular',
+      'Typescript',
+      'Responsive design',
+      'Add new tasks',
+      'Delete tasks',
+      'Mark tasks as completed',
+    ],
+    imageUrl: EasyTasks,
+    link: 'https://easy-task-angular-6db17.web.app',
+    github: 'https://github.com/moo3tazali/Easy-Tasks-Angular',
+  },
+] as const;
+
+export const reactProjectsData = [
   {
     title: 'Movies App',
     description:
@@ -85,6 +105,7 @@ export const projectsData = [
     ],
     imageUrl: MoviesApp,
     link: 'https://movies-app-vodo-intern.vercel.app',
+    github: 'https://github.com/moo3tazali/movies-app-vodo-intern',
   },
 
   {
@@ -102,6 +123,7 @@ export const projectsData = [
     ],
     imageUrl: eCommerceStore,
     link: 'https://e-commerce-store-three-pi.vercel.app',
+    github: 'https://github.com/moo3tazali/eCommerce-Store',
   },
   {
     title: 'Next Auth v5',
@@ -122,6 +144,7 @@ export const projectsData = [
     ],
     imageUrl: nextAuth,
     link: 'https://next-auth-red-six.vercel.app',
+    github: 'https://github.com/moo3tazali/next-auth',
   },
   {
     title: 'LinkedIn-Clone V1',
@@ -138,6 +161,7 @@ export const projectsData = [
     ],
     imageUrl: linkedInCloneV1,
     link: 'https://moo3tazali.github.io/linkedin-clone/',
+    github: 'https://github.com/moo3tazali/linkedin-clone',
   },
   {
     title: 'Amaar Landing Page',
@@ -153,6 +177,7 @@ export const projectsData = [
     ],
     imageUrl: Amaar,
     link: 'https://amaar-kappa.vercel.app/en',
+    github: 'https://github.com/moo3tazali/Amaar-landingPage',
   },
   {
     title: 'Todo App',
@@ -161,6 +186,7 @@ export const projectsData = [
     tags: ['React', 'Tailwind'],
     imageUrl: Todo,
     link: 'https://moo3tazali.github.io/React-Todo-App/',
+    github: 'https://github.com/moo3tazali/React-Todo-App',
   },
   {
     title: 'HooBank',
@@ -169,6 +195,7 @@ export const projectsData = [
     tags: ['React', 'Tailwind'],
     imageUrl: HooBank,
     link: 'https://moo3tazali.github.io/HooBank/',
+    github: 'https://github.com/moo3tazali/HooBank',
   },
 
   {
@@ -178,6 +205,7 @@ export const projectsData = [
     tags: ['HTML', 'CSS', 'Custom CSS Framework'],
     imageUrl: Dashboard,
     link: 'https://moo3tazali.github.io/M-Dashboard/',
+    github: 'https://github.com/moo3tazali/M-Dashboard',
   },
 ] as const;
 
