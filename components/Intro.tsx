@@ -68,7 +68,7 @@ const Intro = () => {
         </Link>
         <a
           download
-          href='/Moataz-Ali-CV.pdf'
+          href='/MoatazAli_Frontend_Developer_1y_Exp_CV.pdf'
           className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'
         >
           Download CV{' '}
