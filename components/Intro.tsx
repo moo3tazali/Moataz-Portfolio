@@ -41,14 +41,38 @@ const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className='font-bold'>
-          Hello, I'm Moataz.
-          <br />
-        </span>{' '}
-        A Junior <span className='font-bold'>FrontEnd developer</span> with a
-        mindset focused on learning and growth. I enjoy building{' '}
-        <span className='italic'>meaningful web experiences</span>. My focus is{' '}
-        <span className='underline'>React (Next.js)</span>.
+        <div>
+          <h1 className='text-2xl font-bold mb-4'>Hello, I'm Moataz Ali</h1>
+          <p className='text-lg leading-relaxed'>
+            As a <span className='font-bold'>Junior FrontEnd Developer</span>{' '}
+            with a passion for{' '}
+            <span className='font-bold'>learning and growth</span>, I thrive on
+            creating meaningful web experiences. My journey in web development
+            is centered around{' '}
+            <span className='font-bold'>React (Next.js)</span> and{' '}
+            <span className='font-bold'>Svelte (SvelteKit)</span>.
+          </p>
+          <p className='text-lg leading-relaxed mt-4'>
+            My core languages are <span className='font-bold'>JavaScript</span>{' '}
+            and <span className='font-bold'>PHP</span>. I have a solid
+            understanding of <span className='font-bold'>Angular</span>,{' '}
+            <span className='font-bold'>Node.js</span>, and{' '}
+            <span className='font-bold'>Laravel</span>, which complements my
+            frontend expertise.
+          </p>
+          <p className='text-lg leading-relaxed mt-4'>
+            I am proficient in building{' '}
+            <span className='font-bold'>RESTful APIs</span> with{' '}
+            <span className='font-bold'>Next.js</span> and{' '}
+            <span className='font-bold'>SvelteKit</span> using{' '}
+            <span className='font-bold'>Prisma ORM</span>. Whether it's
+            connecting to SQL databases like{' '}
+            <span className='font-bold'>MySQL</span> or{' '}
+            <span className='font-bold'>PostgreSQL</span>, or NoSQL databases
+            like <span className='font-bold'>MongoDB</span>, I have the skills
+            to bring your project to life.
+          </p>
+        </div>
       </motion.h1>
 
       <motion.div

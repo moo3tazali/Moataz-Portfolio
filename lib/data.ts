@@ -42,6 +42,14 @@ export const links = [
 export const experiencesData = [
   {
     title: 'Front-End Developer',
+    location: 'Eyes360 | Cairo-EG',
+    description:
+      'At EYES360, I work as a Frontend Web Developer, specializing in creating and maintaining interactive web applications using Next.js, React, and SvelteKit. Our company leverages the latest infrared 3D cameras to scan locations, producing 360-degree virtual tours and high-quality photos, effectively eliminating the need for traditional photography.',
+    icon: React.createElement(FaReact),
+    date: '2023 - present',
+  },
+  {
+    title: 'Front-End Developer',
     location: 'Alex-EG',
     description:
       "I'm now a junior frontend developer looking for a suitable position. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and more. I'm open to full-time opportunities.",
@@ -216,6 +224,8 @@ export const skillsData = [
   'TypeScript',
   'React',
   'Next js',
+  'Svelte',
+  'SvelteKit',
   'Node js',
   'Git',
   'Github',
