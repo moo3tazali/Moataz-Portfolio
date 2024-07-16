@@ -168,7 +168,7 @@ export const reactProjectsData = [
       'Zod',
     ],
     imageUrl: linkedInCloneV1,
-    link: 'https://linkedinclone-test.netlify.app',
+    link: 'https://linkedin-clone-one-umber.vercel.app',
     github: 'https://github.com/moo3tazali/linkedin-clone',
   },
   {
