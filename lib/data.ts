@@ -157,7 +157,7 @@ export const reactProjectsData = [
   {
     title: 'LinkedIn-Clone V1',
     description:
-      'This project is a clone of LinkedIn built using React with Vite as the bundler. It aims to replicate some of the core features of LinkedIn, allowing users to view posts from others, interact with likes and comments, and manage their own profiles.',
+      'This project is a clone of LinkedIn built using React with Vite as the frontend and Sveltekit as the backend. It aims to replicate some of the core features of LinkedIn, allowing users to view posts from others, interact with likes and comments, and manage their own profiles.',
     tags: [
       'React',
       'Tailwind',
@@ -168,7 +168,7 @@ export const reactProjectsData = [
       'Zod',
     ],
     imageUrl: linkedInCloneV1,
-    link: 'https://moo3tazali.github.io/linkedin-clone/',
+    link: 'https://linkedinclone-test.netlify.app',
     github: 'https://github.com/moo3tazali/linkedin-clone',
   },
   {

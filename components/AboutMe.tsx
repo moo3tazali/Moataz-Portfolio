@@ -19,7 +19,7 @@ const AboutMe = () => {
       id='about'
     >
       <SectionHeading>About Me</SectionHeading>
-      <p className='mb-3 text-[15px]'>
+      <div className='mb-3 text-[15px]'>
         <p className='text-lg leading-relaxed'>
           Having graduated with a degree in Business Administration and
           subsequently gained five years of valuable experience in the banking
@@ -65,7 +65,7 @@ const AboutMe = () => {
           excellence, and I am eager to bring this mindset to a forward-thinking
           team.
         </p>
-      </p>
+      </div>
     </motion.section>
   );
 };
