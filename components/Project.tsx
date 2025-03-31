@@ -68,7 +68,7 @@ const Project = ({
             <a
               className='bg-white w-10 h-10 text-gray-700 flex justify-center items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.05] hover:scale-[1.05] hover:text-gray-950 active:scale-105 transition cursor-pointer  borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-gray-100'
               href={github}
-              target='_blank'
+              target={github !== '#' ? '_blank' : '_self'}
             >
               <FaGithubSquare />
             </a>

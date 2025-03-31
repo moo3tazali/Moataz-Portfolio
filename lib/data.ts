@@ -12,6 +12,7 @@ import MoviesApp from '@/public/movies-app.webp';
 import Amaar from '@/public/Amaar.webp';
 import EasyTasks from '@/public/easy-tasks.webp';
 import NestJS from '@/public/nestjs.webp';
+import Spectra from '@/public/spectra.webp';
 
 export const links = [
   {
@@ -95,6 +96,22 @@ export const back = [
 ] as const;
 
 export const front = [
+  {
+    title: 'Spectra App',
+    description:
+      'A web platform bridging people with disabilities and healthcare services. Built with .NET Core (backend) and Next.js (frontend) for a scalable, accessible experience.',
+    tags: [
+      'NextJs',
+      'Tailwind',
+      'NextI18',
+      'Tanstack Query',
+      'VideoSDK',
+      'SignalR',
+    ],
+    imageUrl: Spectra,
+    link: 'https://www.spectra.sa/en',
+    github: '#',
+  },
   {
     title: 'Easy Tasks',
     description:
