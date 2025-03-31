@@ -24,12 +24,12 @@ const Intro = () => {
           transition={{ type: 'tween', duration: 0.2 }}
         >
           <Image
-            className='h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl'
+            className='size-32 rounded-full border-[0.35rem] border-white shadow-xl object-cover object-center'
             src={avatar}
             alt='Moataz avatar'
-            width={192}
-            height={192}
-            quality={95}
+            width={848}
+            height={1080}
+            quality={100}
             priority={true}
           />
         </motion.div>
@@ -42,35 +42,31 @@ const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <div>
-          <h1 className='text-2xl font-bold mb-4'>Hello, I'm Moataz Ali</h1>
+          <h1 className='text-2xl font-bold mb-4'>
+            Hello, I'm Moataz Ali
+          </h1>
           <p className='text-lg leading-relaxed'>
-            As a <span className='font-bold'>Junior FrontEnd Developer</span>{' '}
-            with a passion for{' '}
-            <span className='font-bold'>learning and growth</span>, I thrive on
-            creating meaningful web experiences. My journey in web development
-            is centered around{' '}
-            <span className='font-bold'>React (Next.js)</span> and{' '}
-            <span className='font-bold'>Svelte (SvelteKit)</span>.
-          </p>
-          <p className='text-lg leading-relaxed mt-4'>
-            My core languages are <span className='font-bold'>JavaScript</span>{' '}
-            and <span className='font-bold'>PHP</span>. I have a solid
-            understanding of <span className='font-bold'>Angular</span>,{' '}
-            <span className='font-bold'>Node.js</span>, and{' '}
-            <span className='font-bold'>Laravel</span>, which complements my
-            frontend expertise.
-          </p>
-          <p className='text-lg leading-relaxed mt-4'>
-            I am proficient in building{' '}
-            <span className='font-bold'>RESTful APIs</span> with{' '}
-            <span className='font-bold'>Next.js</span> and{' '}
-            <span className='font-bold'>SvelteKit</span> using{' '}
-            <span className='font-bold'>Prisma ORM</span>. Whether it's
-            connecting to SQL databases like{' '}
-            <span className='font-bold'>MySQL</span> or{' '}
-            <span className='font-bold'>PostgreSQL</span>, or NoSQL databases
-            like <span className='font-bold'>MongoDB</span>, I have the skills
-            to bring your project to life.
+            Frontend Developer with 2 years of experience in
+            building high-performance, scalable web
+            applications using React, Next.js, and
+            TypeScript. Skilled in UI/UX best practices,
+            performance optimization, and modern state
+            management solutions like Redux and Zustand.
+            Procient in TypeScript, ensuring type safety and
+            maintainability across complex projects.
+            Experienced in integrating frontend applications
+            with backend services using Node.js, NestJS, and
+            Prisma. While my core expertise lies in React
+            and Next.js, I actively explore frameworks like
+            SvelteKit, Vue, and Angular, allowing me to
+            adapt quickly to evolving technologies.
+            Successfully transitioned from a ve-year banking
+            career to software development, leveraging
+            strong analytical and problem-solving skills to
+            deliver impactful solutions. Passionate about
+            continuous learning and collaborating with
+            innovative teams in dynamic environments to
+            create efcient and user-centric applications.
           </p>
         </div>
       </motion.h1>
@@ -92,7 +88,7 @@ const Intro = () => {
         </Link>
         <a
           download
-          href='/MoatazAli_Frontend_Developer_1y_Exp_CV.pdf'
+          href='/MoatazAli_Frontend_Developer_2y_Exp_CV.pdf'
           className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-105 hover:scale-105 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'
         >
           Download CV{' '}

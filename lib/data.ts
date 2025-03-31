@@ -11,6 +11,7 @@ import nextAuth from '@/public/Next-Auth.webp';
 import MoviesApp from '@/public/movies-app.webp';
 import Amaar from '@/public/Amaar.webp';
 import EasyTasks from '@/public/easy-tasks.webp';
+import NestJS from '@/public/nestjs.webp';
 
 export const links = [
   {
@@ -41,28 +42,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Front-End Developer',
-    location: 'Eyes360 | Cairo-EG',
+    title: 'Frontend Web Developer',
+    location: 'Profound | Alex, Egypt',
     description:
-      'At EYES360, I work as a Frontend Web Developer, specializing in creating and maintaining interactive web applications using Next.js, React, and SvelteKit. Our company leverages the latest infrared 3D cameras to scan locations, producing 360-degree virtual tours and high-quality photos, effectively eliminating the need for traditional photography.',
+      'Developing and optimizing high-performance Next.js applications, ensuring 90+ Lighthouse scores in performance and accessibility. Building dynamic, interactive user interfaces with a strong focus on UI/UX best practices to enhance user experience. Integrating and consuming RESTful APIs and WebSockets, streamlining real-time data ow between frontend and backend services. Implementing performance optimizations, lazy loading, and code splitting to improve efciency and scalability. Enhancing application security and authentication using Next middleware and JWT, ensuring secure user access and data protection. Collaborating closely with designers and backend developers in an agile environment to deliver seamless and responsive applications.',
     icon: React.createElement(FaReact),
-    date: '2023 - present',
+    date: '07/2024 - present',
   },
   {
-    title: 'Front-End Developer',
-    location: 'Alex-EG',
+    title: 'Frontend Web Developer ',
+    location: 'Freelance | Alex, Egypt',
     description:
-      "I'm now a junior frontend developer looking for a suitable position. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and more. I'm open to full-time opportunities.",
+      'Built and deployed personal and freelance projects using Next.js, React, and TypeScript to strengthen my frontend expertise. Developed full-stack applications, integrating RESTful and GraphQL APIs while ensuring efcient state management with Redux and Zustand. Optimized application performance using lazy loading, code splitting, and caching strategies for enhanced speed and scalability. Explored advanced UI/UX principles, accessibility standards, and responsive design techniques to create intuitive user experiences. Implemented authentication and authorization ows using NextAuth and JWT, enhancing security in web applications. Collaborated with developers and designers on open-source and side projects, gaining hands-on experience in agile workows and best practices.',
     icon: React.createElement(FaReact),
-    date: '2023 - present',
+    date: '11/2023 - 07/2024',
   },
   {
     title: 'Banker',
-    location: 'Alex-EG',
+    location: 'Banque Misr | Alex, Egypt',
     description:
-      'I worked as a bank employee for 5 years before i decided to leave and shift my whole career into something i love.',
+      'Managed nancial transactions, customer accounts, and provided tailored banking solutions to enhance client satisfaction. Developed strong analytical and problem-solving skills, which later helped in transitioning to a tech career in web development.',
     icon: React.createElement(CgWorkAlt),
-    date: '2018 - 2023',
+    date: '04/2018 - 09/2023',
   },
   {
     title: 'Bachelor’s degree',
@@ -74,7 +75,26 @@ export const experiencesData = [
   },
 ] as const;
 
-export const angularProjectsData = [
+export const back = [
+  {
+    title: 'Tasks App',
+    description:
+      'A task management API built with NestJS, TypeScript, and PostgreSQL. It provides features for user authentication, permissions, task creation, updates, and deletion with a well-documented Swagger UI.',
+    tags: [
+      'NestJS',
+      'TypeScript',
+      'PostgreSQL',
+      'Prisma',
+      'Task Management',
+      'REST API',
+    ],
+    imageUrl: NestJS,
+    link: 'https://task-board-production.up.railway.app',
+    github: 'https://github.com/moo3tazali/task-board',
+  },
+] as const;
+
+export const front = [
   {
     title: 'Easy Tasks',
     description:
@@ -89,11 +109,9 @@ export const angularProjectsData = [
     ],
     imageUrl: EasyTasks,
     link: 'https://easy-task-angular-6db17.web.app',
-    github: 'https://github.com/moo3tazali/Easy-Tasks-Angular',
+    github:
+      'https://github.com/moo3tazali/Easy-Tasks-Angular',
   },
-] as const;
-
-export const reactProjectsData = [
   {
     title: 'Movies App',
     description:
@@ -113,7 +131,8 @@ export const reactProjectsData = [
     ],
     imageUrl: MoviesApp,
     link: 'https://movies-app-vodo-intern.vercel.app',
-    github: 'https://github.com/moo3tazali/movies-app-vodo-intern',
+    github:
+      'https://github.com/moo3tazali/movies-app-vodo-intern',
   },
 
   {
@@ -185,7 +204,8 @@ export const reactProjectsData = [
     ],
     imageUrl: Amaar,
     link: 'https://amaar-kappa.vercel.app/en',
-    github: 'https://github.com/moo3tazali/Amaar-landingPage',
+    github:
+      'https://github.com/moo3tazali/Amaar-landingPage',
   },
   {
     title: 'Todo App',
@@ -227,22 +247,25 @@ export const skillsData = [
   'Svelte',
   'SvelteKit',
   'Node js',
+  'NestJS',
   'Git',
   'Github',
   'Tailwind',
   'Shadcn',
+  'Mantine',
   'bootstrap',
   'MUI',
   'Prisma',
   'Redux',
   'Zustand',
-  'React Query',
+  'Tanstack Query',
   'React form',
+  'Formik',
   'Zod',
-  'Supabase',
-  'Strapi',
   'Framer Motion',
   'Postman',
+  'Swagger',
+  'Vercel',
   'Next Auth v5',
   'Clerk',
   'Kinde',

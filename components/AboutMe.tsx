@@ -21,49 +21,68 @@ const AboutMe = () => {
       <SectionHeading>About Me</SectionHeading>
       <div className='mb-3 text-[15px]'>
         <p className='text-lg leading-relaxed'>
-          Having graduated with a degree in Business Administration and
-          subsequently gained five years of valuable experience in the banking
-          sector, I decided to pursue my passion for programming. This led me to
-          enroll in a coding bootcamp where I immersed myself in front-end web
-          development.
+          After five years in the banking sector, I made a
+          bold career shift to pursue my passion for
+          programming. Over the past two years, I have been
+          building high-performance, scalable web
+          applications using
+          <span className='font-bold'> React</span>,{' '}
+          <span className='font-bold'> Next.js</span>, and{' '}
+          <span className='font-bold'> TypeScript</span>. My
+          background in business has honed my analytical and
+          problem-solving skills, which I now apply to
+          software development.
         </p>
         <p className='text-lg leading-relaxed mt-4'>
-          What truly excites me about programming is the inherent
-          problem-solving aspect. I love the feeling of finally figuring out a
-          solution to a problem. My core stack is{' '}
-          <span className='font-bold'>React</span> and{' '}
-          <span className='font-bold'>Next.js</span>. I've cultivated
-          proficiency in a range of technologies, including{' '}
-          <span className='font-bold'>Svelte</span>,{' '}
-          <span className='font-bold'>SvelteKit</span>,{' '}
-          <span className='font-bold'>TypeScript</span>, and{' '}
-          <span className='font-bold'>Prisma</span>. Additionally, I have a
-          solid understanding of <span className='font-bold'>Angular</span>,{' '}
-          <span className='font-bold'>Node.js</span>, and{' '}
-          <span className='font-bold'>Laravel</span>.
+          I specialize in crafting intuitive and
+          user-centric interfaces, ensuring seamless
+          performance and accessibility. My expertise
+          extends to{' '}
+          <span className='font-bold'> Redux</span>,{' '}
+          <span className='font-bold'> Zustand</span>, and
+          other modern state management solutions, allowing
+          me to maintain scalable applications efficiently.
         </p>
         <p className='text-lg leading-relaxed mt-4'>
-          I am proficient in building{' '}
-          <span className='font-bold'>RESTful APIs</span> with{' '}
-          <span className='font-bold'>Next.js</span> and{' '}
-          <span className='font-bold'>SvelteKit</span> using{' '}
-          <span className='font-bold'>Prisma ORM</span>, connecting to SQL
-          databases like <span className='font-bold'>MySQL</span> and{' '}
-          <span className='font-bold'>PostgreSQL</span>, or NoSQL databases like{' '}
-          <span className='font-bold'>MongoDB</span>.
+          While my primary focus is on{' '}
+          <span className='font-bold'> React</span> and{' '}
+          <span className='font-bold'> Next.js</span>, I
+          continuously explore emerging technologies. I have
+          hands-on experience with{' '}
+          <span className='font-bold'> SvelteKit</span>,
+          <span className='font-bold'> Vue</span>, and{' '}
+          <span className='font-bold'> Angular</span>, and I
+          am proficient in integrating frontend applications
+          with backend services using{' '}
+          <span className='font-bold'> Node.js</span>,{' '}
+          <span className='font-bold'> NestJS</span>, and{' '}
+          <span className='font-bold'> Prisma</span>.
         </p>
         <p className='text-lg leading-relaxed mt-4'>
-          Now, I am eager to leverage my skills as a software developer. I am
-          actively seeking a full-time position where I can contribute to
-          innovative projects and collaborate with like-minded professionals in
-          a dynamic environment. Beyond coding, I am fueled by a passion for
-          continuous learning, whether delving into historical narratives or
-          exploring different cultures and countries.
+          My skill set also includes building{' '}
+          <span className='font-bold'> RESTful APIs</span>{' '}
+          and working with databases such as
+          <span className='font-bold'> MySQL</span>,{' '}
+          <span className='font-bold'> PostgreSQL</span>,
+          and <span className='font-bold'> MongoDB</span>.
+          Ensuring code maintainability and type safety with{' '}
+          <span className='font-bold'> TypeScript</span> is
+          a core part of my development process.
         </p>
         <p className='text-lg leading-relaxed mt-4'>
-          I approach every challenge with enthusiasm and a commitment to
-          excellence, and I am eager to bring this mindset to a forward-thinking
-          team.
+          I thrive in dynamic environments where I can
+          collaborate with innovative teams to build
+          impactful solutions. Beyond coding, I am deeply
+          passionate about continuous learning, whether it's
+          exploring new frameworks, refining best practices,
+          or immersing myself in different cultures and
+          perspectives.
+        </p>
+        <p className='text-lg leading-relaxed mt-4'>
+          With a strong commitment to excellence, I am eager
+          to contribute my skills to forward-thinking
+          projects and drive meaningful innovation in the
+          tech space.
         </p>
       </div>
     </motion.section>
