@@ -10,9 +10,31 @@ import ThemeContextProvider from '@/context/themeContext';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Moataz | Portfolio',
+  title: 'Moataz Ali | Senior Power Platform & Dynamics 365 Developer',
   description:
-    'Frontend Developer with 2 years of experience in building high-performance, scalable web applications using React, Next.js, and TypeScript. Skilled in UI/UX best practices, performance optimization, and modern state management solutions like Redux and Zustand. Procient in TypeScript, ensuring type safety and maintainability across complex projects. Experienced in integrating frontend applications with backend services using Node.js, NestJS, and Prisma. While my core expertise lies in React and Next.js, I actively explore frameworks like SvelteKit, Vue, and Angular, allowing me to adapt quickly to evolving technologies. Successfully transitioned from a ve-year banking career to software development, leveraging strong analytical and problem-solving skills to deliver impactful solutions. Passionate about continuous learning and collaborating with innovative teams in dynamic environments to create efcient and user-centric applications.',
+    'Senior Power Platform & Dynamics 365 Developer specializing in enterprise ERP solutions, full-stack web development, and process automation. Expert in D365 CE/FO, Dataverse, NestJS, React/Next.js, and Power Platform. Available for freelance projects on Upwork.',
+  keywords: [
+    'Dynamics 365 Developer',
+    'Power Platform',
+    'Dataverse',
+    'D365 FO',
+    'D365 CE',
+    'NestJS Developer',
+    'React Developer',
+    'Next.js Developer',
+    'ERP Integration',
+    'Process Automation',
+    'Full-Stack Developer',
+    'Freelance Developer',
+    'Upwork Developer',
+  ],
+  authors: [{ name: 'Moataz Ali' }],
+  openGraph: {
+    title: 'Moataz Ali | Senior Power Platform & Dynamics 365 Developer',
+    description:
+      'Enterprise ERP solutions, D365 customizations, full-stack web apps, and process automation. 4+ enterprise platforms delivered across healthcare, logistics, and finance.',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
